@@ -1,102 +1,117 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>En suecia las escuelas enseñarán nociones de programación desde el primer grado</title>
+    <title>En Suecia las escuelas enseñarán nociones de programación desde el primer grado.</title>
     <link rel="stylesheet" href="./css/style.css">
-
 </head>
 
 <body>
 
-    <section id="navegador">
-
+    <header class="navegador">
         <nav>
-            <ul>
+            <ul class="nav-li">
                 <li>Tecnología</li>
                 <li>Ciencia</li>
                 <li>Educación</li>
-                <div class="enviar-derecha "><img class="IMG" src="./img/logo.png" alt=""></div>
             </ul>
+            <div class="menu"><img src="./img/menu.svg" alt=""></div>
+            <div><img class="img-header" src="./img/logo.png" alt=""></div>
         </nav>
+        <div id="optionMenu"
+            style="width: 100%; background: #3b3b3b; top: 0; position: fixed; height: 150px; display: none; justify-content: center; flex-direction: column; gap: 20px;">
 
-    </section>
+            <div style="margin-top: 20px; cursor: pointer;">Tecnología</div>
+            <div style="cursor: pointer;">Ciencia </div>
+            <div style="cursor: pointer;">Educación </div>
+            <span style="position:absolute; bottom: 0; right: 0; padding: 8px; cursor: pointer;" class="close">Cerrar</span>
+        </div>
+    </header>
 
-    <section id="contenedor">
+    <div class="container">
+        <section>
+            <div class="content-section">
 
-        <section id="contenedorInterno">
-            <section class="categoria">
-                <p>Educación / Programación</p>
-                <p class="enviar-derecha">11/05/2023</p>
+                <div class="categoria">
+                    <p>
+                        Educación / Programación
+                    </p>
+                    <p>
+                        11/05/2023
+                    </p>
 
-            </section>
-
-            <article>
-
-                <h1>En Suecia las escuelas enseñarán nociones de programación desde el primer grado.</h1> <br>
-                <img width="100%" style="margin-bottom: 10px; " src="./img/portada.png" alt="">
-                <p>Varios de los grandes representantes del mercado tecnológico como Elon Musk o Mark Zuckerberg han
-                    hablado de los beneficios de aprender programación a temprana edad, mencionando que una mente que
-                    sabe programar se beneficia en muchas áreas como la lógica o las matemáticas.</p><br>
-                <p>Con un pensamiento similar, países de primer mundo han comenzado a implementar medidas para que los
-                    niños aprendan a programar. Suecia está ideando un plan para enseñar a los niños tres idiomas;
-                    idioma nativo, idioma global e idioma digital. </p><br>
-                <p>La misión de las escuelas suecas es incluir la programación informática en la currícula escolar a
-                    nivel inicial, hacer que el lenguaje de programación sea incorporado a la vida diaria, de esta forma
-                    los ciudadanos podrán admitir, asimilar y dominar la tecnología en todas las escalas de su vida.
-                </p><br>
-                <img style="float: left; margin-right: 10px;" width="220px;"
-                    src="https://blogs.iadb.org/educacion/wp-content/uploads/sites/22/2022/12/estudiantes.computacion.jpg"
-                    alt="">
-                <p>La iniciativa, que está planeada desde el 2018, empezará a regir desde primer grado de primaria con
-                    un presupuesto aun no revelado. Al principio se enseñarán nociones básicas de programación y luego
-                    se ahondará en el lenguaje digital y la tecnología. </p><br>
-                <p>A esto, el ministro sueco, Gustav Fridolin, ha mencionado que “se necesitan más programadores. Es una
-                    habilidad que se necesitará en un futuro. Todos estamos siendo afectados por la programación a
-                    niveles cada vez mayores.” </p><br>
-                <p>Las autoridades suecas piensan que la digitalización está transformando al mundo en todos los
-                    ámbitos, por eso es necesario comenzar con el desarrollo de estas habilidades a un nivel temprano.
-                </p><br>
-                <p>Varios de los grandes representantes del mercado tecnológico como Elon Musk o Mark Zuckerberg han
-                    hablado de los beneficios de aprender programación a temprana edad, mencionando que una mente que
-                    sabe programar se beneficia en muchas áreas como la lógica o las matemáticas. </p><br>
-                <p>Con un pensamiento similar, países de primer mundo han comenzado a implementar medidas para que los
-                    niños aprendan a programar. Suecia está ideando un plan para enseñar a los niños tres idiomas;
-                    idioma nativo, idioma global e idioma digital. La misión de las escuelas suecas es incluir la
-                    programación informática en la currícula escolar a nivel inicial, hacer que el lenguaje de
-                    programación sea incorporado a la vida diaria, de esta forma los ciudadanos podrán admitir, asimilar
-                    y dominar la tecnología en todas las escalas de su vida. La iniciativa, que está planeada desde el
-                    2018, empezará a regir desde primer grado de primaria con un presupuesto aun no revelado. Al
-                    principio se enseñarán nociones básicas de programación y luego se ahondará en el lenguaje digital y
-                    la tecnología. </p> <br>
-                <p>A esto, el ministro sueco, Gustav Fridolin, ha mencionado que “se necesitan más programadores. Es una
-                    habilidad que se necesitará en un futuro. Todos estamos siendo afectados por la programación a
-                    niveles cada vez mayores.”
-
-                    Las autoridades suecas piensan que la digitalización está transformando al mundo en todos los
-                    ámbitos, por eso es necesario comenzar con el desarrollo de estas habilidades a un nivel temprano.
-                </p>
-
-
-            </article>
-
-            <div class="navpos">
-
-                <div style="border-right: solid 1px #e9e9e9e9 ;">
-                    <p>POST ANTERIOR</p>
                 </div>
+                <div>
+                    <h2>En Suecia las escuelas enseñarán nociones de programación desde el primer grado.
+                    </h2>
+                    <img width="" class="section-img" src="./img/portada.png" alt="">
+                    <p>Varios de los grandes representantes del mercado tecnológico como Elon Musk o Mark Zuckerberg han
+                        hablado de los beneficios de aprender programación a temprana edad, mencionando que una mente
+                        que sabe programar se beneficia en muchas áreas como la lógica o las matemáticas.
 
-                <div style="border-left:solid 1px #e9e9e9e9 ;">
-                    <p>SIGUIENTE POST</p>
+
+                        Con un pensamiento similar, países de primer mundo han comenzado a implementar medidas para que
+                        los niños aprendan a programar. Suecia está ideando un plan para enseñar a los niños tres
+                        idiomas; idioma nativo, idioma global e idioma digital.
+
+
+                        La misión de las escuelas suecas es incluir la programación informática en la currícula escolar
+                        a nivel inicial, hacer que el lenguaje de programación sea incorporado a la vida diaria, de esta
+                        forma los ciudadanos podrán admitir, asimilar y dominar la tecnología en todas las escalas de su
+                        vida.
+
+                    </p>
                 </div>
+                <div class="content-p-second">
+                    <img width=""
+                        src="https://blogs.iadb.org/educacion/wp-content/uploads/sites/22/2022/12/estudiantes.computacion.jpg"
+                        alt="">
+                    <p>La iniciativa, que está planeada desde el 2018, empezará a regir desde primer grado de primaria
+                        con un presupuesto aun no revelado. Al principio se enseñarán nociones básicas de programación y
+                        luego se ahondará en el lenguaje digital y la tecnología.
 
 
+                        A esto, el ministro sueco, Gustav Fridolin, ha mencionado que “se necesitan más programadores.
+                        Es una habilidad que se necesitará en un futuro. Todos estamos siendo afectados por la
+                        programación a niveles cada vez mayores.”</p>
+                </div>
+                <div>
+                    <p>Las autoridades suecas piensan que la digitalización está transformando al mundo en todos los
+                        ámbitos, por eso es necesario comenzar con el desarrollo de estas habilidades a un nivel
+                        temprano.
+
+
+                        Varios de los grandes representantes del mercado tecnológico como Elon Musk o Mark Zuckerberg
+                        han hablado de los beneficios de aprender programación a temprana edad, mencionando que una
+                        mente que sabe programar se beneficia en muchas áreas como la lógica o las matemáticas.
+
+
+                        Con un pensamiento similar, países de primer mundo han comenzado a implementar medidas para que
+                        los niños aprendan a programar. Suecia está ideando un plan para enseñar a los niños tres
+                        idiomas; idioma nativo, idioma global e idioma digital. La misión de las escuelas suecas es
+                        incluir la programación informática en la currícula escolar a nivel inicial, hacer que el
+                        lenguaje de programación sea incorporado a la vida diaria, de esta forma los ciudadanos podrán
+                        admitir, asimilar y dominar la tecnología en todas las escalas de su vida. La iniciativa, que
+                        está planeada desde el 2018, empezará a regir desde primer grado de primaria con un presupuesto
+                        aun no revelado. Al principio se enseñarán nociones básicas de programación y luego se ahondará
+                        en el lenguaje digital y la tecnología.
+
+
+                        A esto, el ministro sueco, Gustav Fridolin, ha mencionado que “se necesitan más programadores.
+                        Es una habilidad que se necesitará en un futuro. Todos estamos siendo afectados por la
+                        programación a niveles cada vez mayores.” Las autoridades suecas piensan que la digitalización
+                        está transformando al mundo en todos los ámbitos, por eso es necesario comenzar con el
+                        desarrollo de estas habilidades a un nivel</p>
+                </div>
+                <div class="content-button">
+                    <p class="button">POST ANTERIOR</p>
+                    <p class="button">SIGUIENTE POST</p>
+                </div>
             </div>
-
         </section>
-
+        <main></main>
         <aside>
 
             <div class="articuloRelacionado">
@@ -139,23 +154,23 @@
 
         </aside>
 
-
-    </section>
-
-    <section id="footer">
-
+        </aside>
         <footer>
-            <section class="logo">
-                <img width="200px" src="./img/logo-gris.png" alt="">
-            </section>
-            <section class="contacto">
-                <p>Azul Web ® 2023. Derechos reservados.</p>
-                <p>c o n t a c t o @ a z u l w e b . n e t</p>
-            </section>
+            <div class="content-footer">
+                <div class="logo">
+                    <img width="200px" src="./img/logo-gris.png" alt="">
+                </div>
+                <div class="contacto">
+                    <p>Azul Web ® 2023. Derechos reservados.</p>
+                    <p>c o n t a c t o @ a z u l w e b . n e t</p>
+                </div>
+            </div>
+
         </footer>
-
-    </section>
-
+    </div>
+<!-- script -->
+ <script src="./js/app.js"></script>
+<!-- script -->
 </body>
 
 </html>
